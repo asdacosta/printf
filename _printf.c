@@ -20,8 +20,10 @@ int _printf(const char *format, ...)
 		return (0);
 	for (i = 0; format && format[i]; i++)
 	{
+		if (format[i] == '%')
+		{
 
-
+		}
 
 
 
