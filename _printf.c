@@ -18,4 +18,16 @@ int _printf(const char *format, ...)
 		return (-1);
 	if (!format[i])
 		return (0);
+	for (i = 0; format && format[i]; i++)
+	{
+
+
+
+
+
+
+
+
+
+	}
 }
